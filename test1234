@@ -1,6 +1,13 @@
+def reorder (mas)
+ mas.sort
+end
+m = %[
 test
 1234
 again
 1234
 567890
 end
+]
+mm = reorder m
+mm.each{|el| puts el}
